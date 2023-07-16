@@ -17,8 +17,8 @@ Mods: {
 			QuickUseItem19.DisplayName: Быстрое использование предмета #19
 			QuickUseItem20.DisplayName: Быстрое использование предмета #20
 			QuickUseConfigItem.DisplayName: Быстрое использование предмета из конфигурации
-			QuickBuffFavoritedOnly.DisplayName: Быстрый бафф (Только избранные)
-			QueryModOrigin.DisplayName: Запрос происхождения мода
+			QuickBuffFavoritedOnly.DisplayName: Быстрое использование зелий (Отмеченные избранным)
+			QueryModOrigin.DisplayName: Узнать источник мода
 			ToggleAutopause.DisplayName: Вкл/откл авто-паузу
 			SwapArmorWithInventory.DisplayName: Поменять местами броню с заданных слотов инвентаря
 			SwapArmorWithVanity.DisplayName: Поменять местами броню и украшения
@@ -31,18 +31,18 @@ Mods: {
 
 		Configs: {
 			HelpfulHotkeysClientConfig: {
-				DisplayName: Config
+				DisplayName: Конфигурация
 
 				EnableQuickUseItems11to19: {
-					Label: Быстрое использование предмета 11-19 горячих клавиш
+					Label: Быстрое использование предметов 11-19
 					Tooltip: Включите, чтобы разрешить эти горячие клавиши.
 				}
 
 				SwapArmorInventorySlots: {
-					Label: Обмен брони с ячейками инвентаря
+					Label: Изменение брони через слоты инвентаря
 					Tooltip:
 						'''
-						Настройте сменную броню с помощью слотов инвентаря здесь
+						Настройте броню, которую вы сможете сменить с помощью слотов инвентаря
 						Считайте от 0. Используйте значение от 0 до 49.
 						Значения по умолчанию соответствуют нижним правым слотам в инвентаре.
 						'''
@@ -58,7 +58,7 @@ Mods: {
 				}
 
 				DashHotkeyDisabledWhileInChest: {
-					Label: Отключить горячую клавишу Dash при использовании сундука
+					Label: Отключить горячую клавишу "Рывок" при использовании сундука
 					Tooltip:
 						'''
 						Включите это, чтобы горячая клавиша рывка не работала в сундуке.
@@ -76,10 +76,10 @@ Mods: {
 				}
 
 				ShowDeveloperInfoQueryModOrigin: {
-					Label: Show Developer Info
+					Label: Показать информацию о моде
 					Tooltip:
 						'''
-						Горячая клавиша "Query Mod Origin" для отображения имен предметов из мода.
+						Горячая клавиша для отображения имен предметов из мода.
 						Также будут показаны значения Vanilla ID.
 						'''
 				}
